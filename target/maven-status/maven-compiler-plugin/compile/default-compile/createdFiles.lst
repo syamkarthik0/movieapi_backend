@@ -1,0 +1,6 @@
+com\example\movieapi\service\MovieService.class
+WebConfig.class
+com\example\movieapi\controller\MovieController.class
+com\example\movieapi\MovieapiApplication.class
+com\example\movieapi\repository\MovieRepository.class
+com\example\movieapi\entity\Movie.class
