@@ -21,7 +21,7 @@ public class MovieService {
         return movieRepository.findById(id).orElse(null);  // Fetch movie from the DB
     }
 
-    public List<Movie> getAllMovies() {
+    public List<Movie> getAllMovies() { 
         List<Movie> movies = movieRepository.findAll();
         System.out.println("Movies found: " + movies.size());
         return movies;

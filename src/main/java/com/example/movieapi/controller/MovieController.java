@@ -26,6 +26,7 @@ public class MovieController {
     @PostMapping("/movies")
     public String createMovie(@RequestBody Movie movie) {
         // Mock behavior: Simply print the movie object and return a success message
+        movieService.saveMovie(movie);  // Save the movie to the DB
         System.out.println("Movie received: " + movie.toString());
         return "Movie added successfully!";
     }
